@@ -1,0 +1,9 @@
+.spinner-div.main-loader {
+    background: rgba(255, 255, 255, .8);
+}
+
+.spinner-div.main-loader .loading {
+    border-color: #f9004d transparent #f81f01;
+    width: 300px;
+    height: 300px;
+}

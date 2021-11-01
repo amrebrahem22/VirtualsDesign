@@ -71,11 +71,11 @@ const DigitalAgency = () => {
     }, [fetchPosts])
     
     let title = 'About',
-    description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+    description = 'VirtualsDesign is a trusted supplier of software development services operating in Ukraine, Poland, Germany, UAE and Saudi Arabia. With over 2000 experienced specialists, we deliver solutions as a software development company to Fortune 500 vendors and help leading technology innovators build successful software products in a variety of domains..';
     return(
         <Fragment> 
             
-            <Helmet pageTitle="Digital Agency" />
+            <Helmet pageTitle="Home" />
 
             {/* Start Header Area  */}
             <Header logo="light" color="color-white"/>
@@ -114,7 +114,7 @@ const DigitalAgency = () => {
                         <div className="col-lg-12">
                             <div className="section-title text-center service-style--3 mb--30">
                                 <h2 className="title">Our Service</h2>
-                                <p>We create complex products, from the initial idea and formulation of product strategy, through building a prototype and testing it with users, right to the creation of the product itself.</p>
+                                <p>Various startups, business, and enterprises are targeting versatile platform to outreach maximum user base at all available platforms. Innovations in technology have surpassed the level of humans brainstorming, making life interactive and on the tap.</p>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@ const DigitalAgency = () => {
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--15">
                                     <h2 className="title">Our Project</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>Our projects are not just the catalog, they are the result of our dedication and hard work.</p>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ const DigitalAgency = () => {
                         <div className="col-lg-12">
                             <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
                                 <h2 className="title">Skilled Team</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                <p>With our platform engineering expertise and your product vision, we can create a thriving ecosystem of integrated solutions and service providers so you can tap into economies of scale without being anchored by production costs.</p>
                             </div>
                         </div>
                     </div>

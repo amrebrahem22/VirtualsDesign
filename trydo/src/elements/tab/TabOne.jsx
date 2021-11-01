@@ -32,10 +32,10 @@ class TabsOne extends Component{
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
+                                           <p>Since 2002, we’ve been helping leading European and North American technology companies create their software products by assembling and managing world-class engineering teams in Eastern Europe. We’ve established a comprehensive system of tools and practices to ensure quick ramp-up, the right cultural fit, high productivity, and great quality of our software development services.</p>
 
                                            <div className="mt--30">
-                                               <h4>Lorem ipsum dolor sit.</h4>
+                                               <h4>Our Process.</h4>
                                                <ul className="list-style--1">
                                                    {namesItemOne.map((name, index) => {
                                                        return <li key={ index }><FiCheck /> {name}</li>;
@@ -47,17 +47,16 @@ class TabsOne extends Component{
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <p>Nipa ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
-                                           <p>Nipa ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
-                                           <p>Nipa ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
+                                           <p>VirtualsDesign is a trusted supplier of software development services operating in Ukraine, Poland, Germany, UAE and Saudi Arabia. With over 2000 experienced specialists, we deliver solutions as a software development company to Fortune 500 vendors and help leading technology innovators build successful software products in a variety of domains. Intellias has been featured in the 2019 Global Outsourcing 100 list by IAOP, recognized by Inc. 5000, and acknowledged in the GSA UK Awards.</p>
+                                           <p>The company opened yet another office and recruited more skilled employees. And as far as app development is concerned, the company successfully completed 1800+ app building with the 100% ratio of succes</p>
                                        </div>
                                     </TabPanel>
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <p>Popy ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
-                                           <p>Popy ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
-                                           <p>Popy ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
+                                           <h4>Big enough to scale. Small enough to care</h4>
+                                           <p>As a midsize software development company, we combine the best of both worlds. We have the focus and speed of the small IT outsourcing companies along with the scalability and expertise of the big ones.</p>
+                                           <p>The dealing with each and every client is being valued by the company, which completely go through the demands of the customers and deliver it accordingly. With the opening of newer horizons, the company is still able to maintain its reputed position in the market. Hyperlink maintains an excellent team with highly skilled and dynamic expert professionals in order to preserve the service excellence.</p>
                                        </div>
                                     </TabPanel>
                                     

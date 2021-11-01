@@ -34,7 +34,7 @@ class Contact extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Cntact With Us</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                    <p>We would be happy to hear from you, Please fill in the form below or mail us your requirements on info AT VirtualsDesign.</p>
                                 </div>
                             </div>
                         </div>
@@ -71,8 +71,8 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <p><a href="mailto:amrebrahem226@gmail.com">amrebrahem226@gmail.com</a></p>
+                                        <p><a href="mailto:amrroshdy92@gmail.com">amrroshdy92@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>

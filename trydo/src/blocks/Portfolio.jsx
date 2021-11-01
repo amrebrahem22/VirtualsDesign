@@ -51,7 +51,7 @@ const Portfolio = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30">
                                         <h2 className="title">All Works</h2>
-                                        <p>VirtualsDesign show you a list of some Previous Work in verious majors, like Web Development, and Web Design, Mobile App Development, Graphic design and etc...</p>
+                                        <p>Our projects are not just the catalog, they are the result of our dedication and hard work.</p>
                                     </div>
                                 </div>
                             </div>

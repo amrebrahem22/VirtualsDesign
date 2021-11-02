@@ -13,6 +13,7 @@ const portfolioRoutes = require('./routes/portfolio');
 const teamRoutes = require('./routes/team');
 const jobsRoutes = require('./routes/jobs');
 const servicesRoutes = require('./routes/services');
+const mailRoutes = require('./routes/mail');
 
 dotenv.config();
 
@@ -44,6 +45,7 @@ app.use('/api/portfolio', portfolioRoutes)
 app.use('/api/team', teamRoutes)
 app.use('/api/jobs', jobsRoutes)
 app.use('/api/services', servicesRoutes)
+app.use('/api/mail', mailRoutes)
 
 
 // handle 404

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf143f0d.chunk.css",
+    "main.js": "/static/js/main.a8c0aec1.chunk.js",
+    "main.js.map": "/static/js/main.a8c0aec1.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.469a25eb.chunk.css": "/static/css/2.469a25eb.chunk.css",
+    "static/js/2.4b2e954c.chunk.js": "/static/js/2.4b2e954c.chunk.js",
+    "static/js/2.4b2e954c.chunk.js.map": "/static/js/2.4b2e954c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5fa285026495ee0bc6423670a708c144.js": "/precache-manifest.5fa285026495ee0bc6423670a708c144.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.469a25eb.chunk.css.map": "/static/css/2.469a25eb.chunk.css.map",
+    "static/css/main.cf143f0d.chunk.css.map": "/static/css/main.cf143f0d.chunk.css.map",
+    "static/media/avatar.png": "/static/media/avatar.e1b4db72.png",
+    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg",
+    "static/media/virtualsdesign-logo.png": "/static/media/virtualsdesign-logo.90c3aece.png"
+  }
+}

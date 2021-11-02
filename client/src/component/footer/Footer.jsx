@@ -46,8 +46,8 @@ class Footer extends Component{
                                             <div className="footer-link">
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="mailto:admin@example.com">admin@example.com</a></li>
-                                                    <li><a href="mailto:hr@example.com">hr@example.com</a></li>
+                                                    <li><a href="mailto:amrebrahem226@gmail.com">amrebrahem226@gmail.com</a></li>
+                                                    <li><a href="mailto:amrebrahem226@gmail.com">amrebrahem226@gmail.com</a></li>
                                                 </ul>
 
                                                 <div className="social-share-inner">
@@ -63,7 +63,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2021 Rainbow-Themes. All Rights Reserved.</p>
+                                                <p>Copyright © {new Date().getFullYear()} Amr Ibrahim. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

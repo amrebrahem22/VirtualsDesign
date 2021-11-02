@@ -1,46 +1,37 @@
 import React , {useState} from 'react';
-import emailjs from 'emailjs-com';
+import { mailUrl } from '../../helpers/API_Routes';
+import axios from 'axios';
 
-const Result = () => {
-    return (
-        <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
-    )
-}
-function ContactForm({props}) {
-    const [ result,showresult ] = useState(false);
+function ContactForm({setShow}) {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [subject, setSubject] = useState('')
+    const [message, setMessage] = useState('')
 
-    const sendEmail = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs
-        .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
-            e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
-        )
-        .then((result) => {
-            console.log(result.text);
-            }, 
-            (error) => {
-                console.log(error.text);
-            }
-        );
-        e.target.reset();
-        showresult(true);
+        axios.post(mailUrl, {name, email, phone, subject, message})
+        .then(res => {
+            res.data.success && setShow(true)
+            setName('')
+            setEmail('')
+            setPhone('')
+            setSubject('')
+            setMessage('')
+        }).catch(err => console.log(err))
     };
 
-    setTimeout(() => {
-        showresult(false);
-    }, 5000);
-
     return (
-        <form action="" onSubmit={sendEmail}>
+        <form action="" onSubmit={handleSubmit}>
             <div className="rn-form-group">
                 <input 
                 type="text"
-                name="fullname"
+                name="name"
                 placeholder="Your Name"
                 required
+                value={name}
+                onChange={e => setName(e.target.value)}
                 />
             </div>
 
@@ -50,6 +41,8 @@ function ContactForm({props}) {
                 name="email"
                 placeholder="Your Email"
                 required
+                value={email}
+                onChange={e => setEmail(e.target.value)}
                 />
             </div>
 
@@ -59,6 +52,8 @@ function ContactForm({props}) {
                 name="phone"
                 placeholder="Phone Number"
                 required
+                value={phone}
+                onChange={e => setPhone(e.target.value)}
                 />
             </div>
 
@@ -68,6 +63,8 @@ function ContactForm({props}) {
                 name="subject"
                 placeholder="Subject"
                 required
+                value={subject}
+                onChange={e => setSubject(e.target.value)}
                 />
             </div>
 
@@ -78,17 +75,15 @@ function ContactForm({props}) {
                 name="message"
                 placeholder="Your Message"
                 required
+                value={message}
+                onChange={e => setMessage(e.target.value)}
                 >
                 </textarea>
             </div>
 
             <div className="rn-form-group">
                 <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit Now</button>
-            </div> 
-
-            <div className="rn-form-group">
-                {result ? <Result /> : null}
-            </div> 
+            </div>
         </form>
     )
 }

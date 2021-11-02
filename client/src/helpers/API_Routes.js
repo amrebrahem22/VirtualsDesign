@@ -30,3 +30,6 @@ export const commentsDetailUrl = (id) => `${apiEndpoint}/comments/${id}`
 
 export const categoriesUrl = `${apiEndpoint}/categories`
 export const categoriesDetailUrl = (id) => `${apiEndpoint}/categories/${id}`
+
+export const mailUrl = `${apiEndpoint}/mail`
+export const mailDetailUrl = (id) => `${apiEndpoint}/mail/${id}`

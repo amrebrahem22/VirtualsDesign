@@ -13,7 +13,7 @@ class ContactTwo extends Component {
                                 <p className="description">Don’t Miss To Follow Us On Our Social Networks Accounts.</p>
                             </div>
                             <div className="form-wrapper">
-                                <ContactForm />
+                                <ContactForm setShow={this.props.setShow}/>
                             </div>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">

@@ -34,19 +34,7 @@ class Header extends Component{
                 }
             }
         }
-        const { logo, color='default-color' } = this.props;
-        let logoUrl;
-        if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
-        }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
-        }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
-        }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
-        }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
-        }
+        const { color='default-color' } = this.props;
 
         
         return(
@@ -55,7 +43,7 @@ class Header extends Component{
                     <div className="header-left">
                         <div className="logo">
                             <a href="/">
-                                {logoUrl}
+                                <img src="/assets/images/logo/virtualsdesign-logo.png" width="150px" style={{filter: "invert(1)"}} alt="Home" />
                             </a>
                         </div>
                     </div>

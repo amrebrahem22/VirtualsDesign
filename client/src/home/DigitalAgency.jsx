@@ -22,7 +22,7 @@ const SlideList = [
         bgImage: 'bg_image--20',
         category: '',
         title: 'Marketing',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        description: 'We are specialized in Search Engine Optimization(SEO), Google Ads, Social Media Marketing(SMM) and Email Marketing.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     },
@@ -31,7 +31,7 @@ const SlideList = [
         bgImage: 'bg_image--21',
         category: '',
         title: 'Development.',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        description: 'VirtualsDesign Technologies is a leading Web & Software development company which provides operational and functional web & software development services.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     },
@@ -40,7 +40,7 @@ const SlideList = [
         bgImage: 'bg_image--22',
         category: '',
         title: 'UX Research.',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        description: 'Looking for UI/UX services that actually work and help your brand grow online? Don’t look any further we got your back.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     },
@@ -48,8 +48,8 @@ const SlideList = [
         textPosition: 'text-center',
         bgImage: 'bg_image--23',
         category: '',
-        title: 'UX Research.',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        title: 'Cloud Solutions.',
+        description: 'accelerating business outcomes and building future-ready capabilities.Cloud computing is reshaping the way businesses and users interact with computers and mobile devices.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }
@@ -114,7 +114,7 @@ const DigitalAgency = () => {
                         <div className="col-lg-12">
                             <div className="section-title text-center service-style--3 mb--30">
                                 <h2 className="title">Our Service</h2>
-                                <p>Various startups, business, and enterprises are targeting versatile platform to outreach maximum user base at all available platforms. Innovations in technology have surpassed the level of humans brainstorming, making life interactive and on the tap.</p>
+                                <p>Various startups, business, and enterprises are targeting versatile platform to outreach maximum user base at all available platforms..</p>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ const DigitalAgency = () => {
                         <div className="col-lg-12">
                             <div className="section-title service-style--3 text-center mb--25 mb_sm--0">
                                 <h2 className="title">Skilled Team</h2>
-                                <p>With our platform engineering expertise and your product vision, we can create a thriving ecosystem of integrated solutions and service providers so you can tap into economies of scale without being anchored by production costs.</p>
+                                <p>With our platform engineering expertise and your product vision, we can create a thriving ecosystem of integrated solutions and service provider.</p>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ const DigitalAgency = () => {
                         <div className="col-lg-12">
                             <div className="section-title text-center service-style--3">
                                 <h2>Latest News</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                <p>Discover more about our latest blog posts and know more about our services.</p>
                             </div>
                         </div>
                     </div>
@@ -244,7 +244,6 @@ const DigitalAgency = () => {
                         <div className="col-lg-12">
                             <div className="section-title text-center service-style--3 mb--30">
                                 <h2 className="title">Our Clients</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                             </div>
                         </div>
                     </div>
